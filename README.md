@@ -3,7 +3,7 @@ My solution to the post-interview coding problem involves a python script-"Pytho
 The first is a csv input file, and the second is a location to write a now converted json file.
 
 ## How to run the program
-You will need to have a python interpreter installed on your machine. You can download it easily from [Link]https://www.python.org/downloads/
+You will need to have a python interpreter installed on your machine. You can download it easily from [Link](https://www.python.org/downloads/)
 The python script takes two parameters, -i <input.csv file location> and -o <output.json file location>
 You need to tell the script where your input csv file is located on your machine, and also where you want your output to be,
 otherwise an error will occur.
