@@ -33,8 +33,11 @@ def read_csv(file, json_file):
 
 #Convert csv data into json and write it
 def write_json(data, json_file):
+    print(json.dumps(data, indent=4, sort_keys=True))
     with open(json_file, "w") as f:
-        f.write(json.dumps(data))
+        f.write(json.dumps(data, indent=4, sort_keys=True))
+        #parsed = json.loads(f)
+    #print(json.dumps(parsed, indent=4, sort_keys=True))
 
 if __name__ == "__main__":
    main(sys.argv[1:])
